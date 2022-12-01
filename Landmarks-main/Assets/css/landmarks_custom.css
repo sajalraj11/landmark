@@ -1,0 +1,78 @@
+.landmarksListText {
+	float: left;
+	font-size: 16px;
+	vertical-align: middle;
+	font-weight: normal;
+ 	color: #000;
+}
+
+.summaryContent {
+	margin-top: 100px;
+	padding: 10px;
+}
+
+.summaryTitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.aboutText {
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.descriptionText  {
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.alignLeft {
+	float: left;
+	width: 75%;
+}
+
+.alignRight {
+	float: right;
+}
+
+.greyText {
+	font-size: 14px;
+	color: rgb(188,188,188);
+}
+
+.favoritesLabelText {
+	font-size: 16px;
+	vertical-align: middle;
+	padding-top: 20px;
+	font-weight: normal;
+	padding-left: 0px;
+ 	color: #000;
+}
+
+.landmarkNameHeader {
+	padding-left:0px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.backBtn {
+	color: #0868f9;
+	padding-left: 0px;
+	font-size:16px;
+	border: none;
+	background-color:#fff;
+}
+
+.titleText {
+	padding-top:30px;
+	opacity: 1.0;	
+	transform: translate(0,0);
+	transition: all 0.5s ease-in-out;
+}
+
+.titleText.move {
+	opacity:0.1;
+	transform: translate(0px,-30px) scale(.25);
+}
+
